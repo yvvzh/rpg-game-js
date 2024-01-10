@@ -80,3 +80,69 @@ a {
     width: 100%;
     z-index: 0;
 }
+
+.movie-infos {
+    display: block;
+    font-weight: 500;
+    position: absolute;
+    top: 18%;
+    left: 4%;
+    padding: 0;
+    margin: 0;
+}
+
+.movie-banner-title {
+    width: 80%;
+}
+
+.synopsis {
+    margin-top: -5%;
+    max-width: 36%;
+    font-size: 1.1vw;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.45);
+}
+
+.action-buttons-area {
+    height: 3vw;
+    width: 23vw;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.action-buttons {
+    height: 100%;
+    width: 48%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-text {
+    padding-top: 2%;
+}
+
+.play {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+
+#play-icon {
+    max-height: 70%;
+    margin-right: 5%;
+}
+
+.more-infos {
+    background-color: #404040;
+    color: #ffffff;
+    font-size: 1vw;
+    font-weight: 700;
+}
+
+#infos-icon {
+    max-height: 65%;
+    margin-right: 5%;
+}
