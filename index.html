@@ -1,41 +1,31 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.cdnfonts.com/css/sharp-sans" rel="stylesheet">
-    <title>Accueil - Netflix</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-    <header>
-        <div class="header-banner">
-            <a href="/index.html" class="logo" aria-label="Netflix"><img src="/ressources/images/netflix_logo.png" alt="Netflix logo"></a>
-            <ul>
-                <li><a href="/index.html" class="header-links">Accueil</a></li>
-                <li><a href="/index.html" class="header-links">Séries</a></li>
-                <li><a href="/index.html" class="header-links">Films</a></li>
-                <li><a href="/index.html" class="header-links">Nouveautés les plus regardées</a></li>
-                <li><a href="/index.html" class="header-links">Ma liste</a></li>
-                <li><a href="/index.html" class="header-links">Explorer par langue</a></li>
-            </ul>
-            <div class="end-nav">
-                <div class="nav-element invert"><a href="/index.html" id="search"><img class="nav-icon" src="/ressources/images/mg_icon.png" alt="search"></a></div>
-                <div class="nav-element invert"><img class="nav-icon" src="/ressources/images/notification_bell_icon.png" alt="notification bell"></a></div>
-                <div class="nav-element"><a href="/index.html" class="nav-icon"><img src="/ressources/images/user_profile_image.png" alt="user_profile_image"></a></div>
-            </div>
+    <div id="game">
+        <div id="stats">
+            <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+            <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
+            <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
         </div>
-    </header>
-    <div class="movie-banner">
-        <img id="movie-banner-image" class="full-width" src="/ressources/images/movie_grand_banner.webp" alt="movie banner">
-        <div class="movie-infos">
-            <div class="movie-banner-title"><img class="movie-banner-title" src="/ressources/images/move_grand_banner_title.png" alt="jack reacher"></div>
-            <div class="synopsis">Un sniper est arrêté par la police et contacte Take Up. Aidé d'un jeune dev en herbe, la start-up va alors devoir déjouer un mystérieux complot.</div>
-            <div class="action-buttons-area">
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="action-buttons play"><img id="play-icon" src="/ressources/images/play_icon.png" alt="play"><p class="buttons-text">Lecture</p></a>
-                <a href="/index.html" class="action-buttons more-infos"><img id="infos-icon" class="invert" src="/ressources/images/info_icon.png" alt="infos"><p class="buttons-text">Plus d'infos</p></a>
-            </div>
+        <div id="controls">
+            <button id="button1">Go to store</button>
+            <button id="button2">Go to cave</button>
+            <button id="button3">Fight dragon</button>
+        </div>
+        <div id="monsterStats">
+            <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
+            <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
+        </div>
+        <div id="text">
+            Welcome to Dragon Repeller. You must defeat the dragon that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons above.
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
